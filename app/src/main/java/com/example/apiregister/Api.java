@@ -13,6 +13,8 @@ import retrofit2.http.Url;
 public interface Api{
     String BASE_URL = "http://liveapi-vmart.softexer.com/api/";
 
+
+
     @POST
     Call<ResponseBody> RegisterApi(@Body JsonObject jsonobject, @Url String url);
 
